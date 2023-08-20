@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,12 +13,21 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <header>
+    <header class="bg-[#F9F6E2]">
         <!-- hero section -->
-        <section>
-            <div>
-                <h3 class="text-black text-3xl">---SALE FEVER---</h3>
-                <h1 class="text-4xl text-black">Purchase TK 200 or above & get <span>20% off</span></h1>
+        <section class="flex flex-col-reverse md:flex-row lg:flex-row items-center justify-center max-w-screen-xl mx-auto md:px-10 sm:px-10  py-4 md:py-12 lg:py-20">
+            <!-- first div -->
+            <div class="flex-1 flex items-center justify-center flex-col space-y-8 md:space-y-6 lg:space-y-10">
+                <h3 class="text-black text-xl md:text-xl lg:text-2xl font-medium">---SALE FEVER---</h3>
+                <h1 class="sm:leading-10 text-4xl md:text-3xl lg:text-4xl text-black font-sans font-bold">Purchase TK 200 or <br> above & get <span class="text-[#E527B2]">20% off</span></h1>
+                <div class="flex items-center justify-center gap-4">
+                    <p class="text-black sm:text-sm font-medium uppercase">Use Promo Code</p>
+                    <button class="text-white text-xl md:text-sm lg:text-2xl rounded-lg py-3 px-7 bg-[#E527B2] font-semibold">SELL200</button>
+                </div>
+            </div>
+            <!-- second div -->
+            <div class="flex-1">
+                <img class="w-full" src="./images/Summer 1.png" alt="" srcset="">
             </div>
         </section>
     </header>
