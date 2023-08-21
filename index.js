@@ -61,6 +61,8 @@ function purchaseCart(target) {
     document.getElementById("total").textContent = '000';
     const purchaseBtn = document.getElementById("makePurchase");
     purchaseBtn.setAttribute("disabled", "true");
+    const applyBtn = document.getElementById("applyBtn");
+    applyBtn.setAttribute("disabled", "true");
 
   });
 }
