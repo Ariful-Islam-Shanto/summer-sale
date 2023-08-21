@@ -59,6 +59,8 @@ function purchaseCart(target) {
     document.getElementById("totalPrice").childNodes[1].innerText = '0.00';
     document.getElementById("Discount").textContent = '000';
     document.getElementById("total").textContent = '000';
+    const purchaseBtn = document.getElementById("makePurchase");
+    purchaseBtn.setAttribute("disabled", "true");
 
   });
 }
