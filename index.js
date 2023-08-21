@@ -42,11 +42,11 @@ function purchaseCart(target) {
         const discount = calculateDiscount.toFixed(2);
         console.log(discount);
         const discountBalance = document.getElementById("Discount")
-        discountBalance.innerText = discount;
+        discountBalance.innerText = discount + "TK";
 
         const total = (totalCost - discount);
         console.log(total);
-        document.getElementById("total").innerText = total;
+        document.getElementById("total").innerText = total + "TK";
         coupon.value = '';
         
       }
